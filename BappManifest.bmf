@@ -1,0 +1,13 @@
+Uuid: ca894f9bab6446f0aa7eac712a7b80ca
+ExtensionType: 1
+Name: Firewall Ferret
+RepoName: firewall-ferret
+ScreenVersion: 1.2.1
+SerialVersion: 1
+MinPlatformVersion: 15
+ProOnly: True
+Author: Anthony Hanel
+ShortDescription: Allows a tester to manually insert junk data and adds junk data to Active Scans by duplicating each scan check.
+EntryPoint: target/Firewall-Ferret-1.2.1.jar
+BuildCommand: mvn package -DskipTests=true -Dmaven.javadoc.skip=true -B
+SupportedProducts: Pro
